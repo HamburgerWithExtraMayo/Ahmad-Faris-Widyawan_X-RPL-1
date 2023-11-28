@@ -1,0 +1,144 @@
+.icon-footer {
+    width: 20px;
+    object-fit: contain;
+    padding-right: 5px;
+
+
+}
+
+.nav-footer ul {
+    display: flex;
+    list-style: none;
+    width: 305px;
+    height: auto;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+    font-size: 17px;
+    margin: 10px 0;
+    color: white;
+    font-family: helvetica;
+
+
+
+}
+
+.nav-footer ul p {
+    color: rgb(83, 72, 72);
+}
+
+.isi-footer {
+    display: flex;
+
+
+}
+
+.kategori a {
+    text-decoration: none;
+    color: white;
+    cursor: default;
+}
+
+footer {
+    background-color: #ffc412;
+    height: auto;
+}
+
+.nav-footer {
+    flex-wrap: wrap;
+    display: flex;
+
+    align-items: flex-start;
+    padding: 20px 30px;
+
+}
+
+.label-foot,
+li .icon-footer {
+    cursor: pointer;
+    color: rgb(83, 72, 72)
+}
+
+.label-foot:hover {
+    filter: brightness(0.5);
+    opacity: 1;
+
+
+}
+
+.label-foot {
+    margin: 7px 0px;
+}
+
+.kategori li {
+    text-align: left;
+
+}
+
+li p.deskripsi-footer {
+    font-size: large;
+    font-weight: bold;
+    margin: 5px 0;
+    color: black;
+}
+
+.nav-back {
+    background-color: #ffd412;
+    display: flex;
+    color: rgb(0, 0, 0);
+    justify-content: top;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    height: 40px;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.footer {
+    margin-top: 30px;
+    margin-right: 0;
+    width: 100vw;
+}
+
+.back {
+    border-radius: 4px;
+    border: 1px solid black;
+    background-color: #ffd412;
+    color: black;
+    padding: 7px 10px;
+    font-size: 17px;
+    transition: 0.2s;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.back:hover {
+    background-color: black;
+    color: #ffd412;
+}
+
+.arrow-up {
+    width: 30px;
+    object-fit: contain;
+}
+
+.farispedia-footer {
+    font-family: liberation-serif;
+    font-size: 30px;
+    color: black;
+    padding-top: 20px;
+    text-align: center;
+    display: none;
+
+
+}
+
+.copyright {
+    color: black;
+    margin: 0;
+    padding: 76px 0;
+    text-align: center;
+    font-size: 17px;
+}

@@ -1,0 +1,96 @@
+
+@font-face {
+    font-family: LiberationSerif;
+    src: url(LiberationSerif-Regular.ttf);
+}
+
+.judul {
+    letter-spacing: 3px;
+    font-family: LiberationSerif;
+    font-size: xxx-large;
+    margin: 15px auto;
+    width: 80vw;
+
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    background-image: url(background-utama.jpg);
+    background-size: 1300px;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+
+}
+
+h3 {
+    font-weight: bold;
+}
+
+h2,
+h3,
+h4 {
+    color: yellow;
+
+}
+
+.subjudul {
+    text-align: center;
+    margin-top: 40px;
+    font-family: helvetica;
+}
+
+p,
+.daftar-isi li {
+    color: gold;
+    margin-bottom: 20px;
+
+
+
+}
+
+.pembukaan {
+    text-align: center;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    border-top: 1px solid grey;
+    margin-right: 17px;
+    margin: 15px auto;
+}
+
+
+.teks-beli {
+
+    display: block;
+}
+
+.jual {
+    text-align: center;
+}
+
+a {
+    color: aqua;
+}
+
+html body .konten {
+    margin: 16px;
+    text-align: left;
+    padding: 16px;
+    line-height: 25px;
+
+}

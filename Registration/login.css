@@ -1,0 +1,294 @@
+@font-face {
+    font-family: NotoSans;
+    src: url(../../NotoSans-Regular.ttf);
+}
+
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 60px;
+
+}
+
+.welcome {
+    font-size: 96px;
+    font-weight: 600;
+    white-space: nowrap;
+    word-break: break-all;
+    width: 50vw;
+    
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background: url(Shiny.svg) no-repeat;
+    background-size: 100vw 120vh;
+    background-position: cover;
+    font-family: NotoSans,helvetica;
+    color: white;
+    overflow: hidden;
+    padding-top: 25px;
+    font-weight: normal;
+}
+
+.underline {
+    transform: translateX(150%);
+    opacity: 1;
+}
+
+.ellipse {
+    position: absolute;
+    z-index: -1;
+    margin-top: 20px;
+}
+
+.ellipse:nth-child(even) {
+    transform: rotate(-28.5deg); 
+}
+
+.ellipse1 {
+    width: 211px;
+    translate: -160px -180px;
+    
+}
+.ellipse2 {
+    width: 155px;
+    translate: 90px 210px;
+}
+.login-outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.login-container {
+    border-radius: 20px;
+    border: 1px solid #AFAFAF;
+    box-shadow: -8px 4px 5px 0px rgba(0, 0, 0, 0.24);
+    width: 270px;
+    height: 75vh;
+    padding: 32.5px 20px 15px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    overflow-x: hidden;
+
+
+
+}
+
+.login-text {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.greeting {
+    font-weight: 500;
+    font-size: 10.6px;
+    margin-bottom: 7px;
+}
+
+.upper-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 240px;
+    display: flex;
+    height: 75vh;
+
+}
+
+.login-container input[type="text"],
+input[type="password"] {
+    width: 224px;
+    height: 12.5px;
+    padding: 7px 8px;
+    border-radius: 6px;
+    background: none;
+    border: 1px solid #FFF;
+    margin-bottom: 12.5px;
+    color: #FFF;
+    outline: none;
+}
+
+
+
+.remember-container {
+    display: flex;
+    font-size: 11px;
+    align-items: center;
+    justify-content: start;
+    width: 240px;
+    margin-bottom: 12.5px;
+}
+
+.remember-container input {
+    border: none;
+    outline: none;
+}
+
+.form-input {
+    margin-bottom: 23.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.password-container {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
+
+.password-container img {
+    position: absolute;
+    padding: 7px 8px;
+}
+
+.or {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    margin-bottom: 12px;
+}
+
+.login-container button {
+    width: 240px;
+    height: 29.5px;
+    padding: 7px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background: linear-gradient(91deg, #628EFF 9.91%, #8740CD 53.29%, #580475 91.56%);
+    margin-bottom: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+
+}
+
+.login-container button:hover {
+    filter: brightness(1.2);
+
+}
+
+.password-icon-open {
+    width: 15px;
+    display: none;
+    cursor: pointer;
+}
+
+.password-icon-close {
+    width: 15px;
+    cursor: pointer;
+
+}
+
+.appear {
+    display: block;
+}
+
+.vanish {
+    display: none;
+}
+
+.forgot {
+    color: #FFF;
+    font-family: NotoSans;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+
+hr {
+    width: 102px;
+    height: 2px;
+    background: grey;
+    border: none;
+    margin: 0;
+
+}
+
+.login-option {
+    width: 23px;
+    transition: 0.3 ease;
+}
+.login-option:hover {
+    scale: 1.1;
+}
+
+.login-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+    height: 21px;
+    margin: 0 auto 50px;
+    cursor: pointer;
+}
+
+.lower-section {
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+}
+
+.signup-option {
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.signup-option a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.signup-option:hover {
+    text-decoration: underline;
+}
+
+.lowest-section {
+    display: flex;
+    white-space: nowrap;
+    justify-content: space-between;
+    width: 240px;
+}
+
+.lowest-section div:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: helvetica;
+}

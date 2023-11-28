@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sign Up</title>
+	<link rel="stylesheet" href="../../navbar.css">
+	<link rel="stylesheet" href="../../footer.css">
+	<link rel="stylesheet" href="../login.css">
+	<link rel="icon" type="image/svg" href="../../icon-web.svg">
+
+	<style>
+		.login-container button {
+			background: linear-gradient(91deg, #E948C5 9.91%, #CD407B 53.29%, #75042D 91.56%);
+
+
+		}
+
+		body {
+			background: url(Shiny.svg) no-repeat;
+			background-size: 100vw 120vh;
+			background-position: cover;
+		}
+	</style>
+
+</head>
+
+<body>
+	<div class="navbar-container">
+		<section class="navbar">
+			<nav class="nav-left">
+                <div class="nav-logo"><span class="f">F</span>ARISPEDIA</div>
+            </nav>
+			<nav class="nav-right">
+				<a href="../../Homepage-Utama/home-utama.html" class="nav-item home">Home</a>
+				<a href="../../Creator/creator.html" class="nav-item creator">Creator</a>
+				<a href="../../About/about.html" class="nav-item about">About</a>
+				<div class="nav-item categories">Categories</div>
+				<a href="../../Registration/Log In/Login.html" class="nav-item login">Login</a>
+				<a href=mailto:farispedia.contact@gmail.com class="nav-item contact">Contact</a>
+				<div class="underline"></div>
+			</nav>
+			<nav class="blank"></nav>
+		</section>
+		<aside class="right-sidebar">
+			<div class="menu-toggle-container">
+				<menu class="menu-toggle">
+					<span></span>
+					<span></span>
+					<span></span>
+				</menu>
+				<input type="checkbox">
+			</div>
+			<nav class="nav-right-mobile">
+				<a href="" class="nav-item-mobile home">Home</a>
+				<a href="../../Creator/creator.html" class="nav-item-mobile creator">Creator</a>
+				<a href="../../About/about.html" class="nav-item-mobile about">About</a>
+				<a href="../../Registration/Log In/Login.html" class="nav-item-mobile login">Login</a>
+				<a href="mailto:farispedia.contact@gmail.com" class="nav-item-mobile contact">Contact</a>
+			</nav>
+		</aside>
+		<section class="categories-outer-container">
+			<section class="categories-container">
+				<a href="../../Kategori/Ekonomi dan Bisnis/home-ekonomi-dan-bisnis.html" class="categories-nav-item">Ekonomi dan
+					Bisnis</a>
+				<a href="../../Kategori/Geografi dan Lingkungan/home-geografi-dan-lingkungan.html"
+					class="categories-nav-item">Geografi dan Lingkungan</a>
+				<a href="../../Kategori/Hewan dan Tumbuhan/home-hewan-dan-tumbuhan.html" class="categories-nav-item">Hewan dan
+					Tumbuhan</a>
+				<a href="../../Kategori/Hukum dan Hak Asasi Manusia/home-hukum-dan-hak-asasi-manusia.html"
+					class="categories-nav-item">Hukum dan Hak Asasi Manusia</a>
+				<a href="../../Kategori/Ilmu Pengetahuan Umum/home-ilmu-pengetahuan-umum.html" class="categories-nav-item">Ilmu
+					Pengetahuan Umum</a>
+				<a href="../../Kategori/Keagamaan dan Filsafat/home-keagamaan-dan-filsafat.html"
+					class="categories-nav-item">Keagamaan
+					dan Filsafat</a>
+				<a href="../../Kategori/Kesehatan dan Kedokteran/home-kesehatan-dan-kedokteran.html"
+					class="categories-nav-item">Kesehatan dan Kedokteran</a>
+				<a href="../../Kategori/Makanan dan Kuliner/home-makanan-dan-kuliner.html" class="categories-nav-item">Makanan dan
+					Kuliner</a>
+				<a href="../../Kategori/Masyarakat dan Populasi/home-masyarakat-dan-populasi.html"
+					class="categories-nav-item">Masyarakat dan Populasi</a>
+				<a href="../../Kategori/Olahraga/home-olahraga.html" class="categories-nav-item">Olahraga</a>
+				<a href="../../Kategori/Pendidikan dan Pembelajaran/home-pendidikan-dan-pembelajaran.html"
+					class="categories-nav-item">Pendidikan dan Pembelajaran</a>
+				<a href="../../Kategori/Perjalanan dan Pariwisata/home-perjalanan-dan-pariwisata.html"
+					class="categories-nav-item">Perjalanan dan Pariwisata</a>
+				<a href="../../Kategori/Sejarah dan Budaya/home-sejarah-dan-budaya.html" class="categories-nav-item">Sejarah dan
+					Budaya</a>
+				<a href="../../Kategori/Seni dan Humaniora/home-seni-dan-humaniora.html" class="categories-nav-item">Seni dan
+					Humaniora</a>
+				<a href="../../Kategori/Teknik dan Industri/home-teknik-dan-industri.html" class="categories-nav-item">Teknik dan
+					Industri</a>
+				<a href="../../Kategori/Teknologi dan Inovasi/home-teknologi-dan-inovasi.html"
+					class="categories-nav-item">Teknologi
+					dan Inovasi</a>
+					<script src="../../navbar.js"></script>
+			</section>
+		</section>
+	</div>
+		<div class="login-outer-container">
+			<section class="login-container">
+				<section class="upper-section">
+					<div class="upper-section-real">
+						<div class="login-text">
+							Lupa Password ?
+						</div>
+						<div class="greeting">
+							Tolong masukkan email anda
+						</div>
+						<section class="form-input">
+							<input type="text" name="username" placeholder="Email" class="username">
+
+							<button class="login-submit">Sign Up</button>
+						</section>
+					</div>
+					<div class="">
+						<div class="or">
+							<hr>
+							<div>or</div>
+							<hr>
+						</div>
+						<div class="login-menu">
+							<img src="devicon_google.svg" class="login-option">
+							<img src="logos_facebook.svg" class="login-option">
+							<img src="bi_github.svg" class="login-option">
+						</div>
+					</div>
+					<section class="lower-section">
+						<div class="signup-option">
+							<a href="../Sign Up/SignUp.html">
+								Belum punya akun? Sign Up
+							</a>
+						</div>
+						<div class="lowest-section">
+							<div>Terms & Conditions</div>
+							<div>Support</div>
+							<div>Customer Care</div>
+						</div>
+					</section>
+				</section>
+			</section>
+		</div>
+		<div class="footer">
+			<nav class="nav-back">
+				<img src="../../Footer/arrow-up.png" class="arrow-up">
+				<a href="#">
+					<span class="back-button">
+						<button class="back">
+							Kembali ke atas
+						</button>
+					</span>
+				</a>
+			</nav>
+			<footer>
+				<h5 class="farispedia-footer"><span style="font-size: 45px;">F</span>ARISPEDIA</h5>
+				<nav class="nav-footer">
+					<ul class="kategori">
+						<li>
+							<p class="deskripsi-footer">
+								Social Media
+							</p>
+						</li>
+						<div class="list-social">
+							<li>
+								<a href="">
+									<div class="isi-footer">
+										<img src="../../footer/Youtube-icon.png" class="icon-footer">
+										<p class=label-foot>Youtube</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="isi-footer">
+										<img src="../../footer/Instagram-icon.png" class="icon-footer">
+										<p class=label-foot>Instagram</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="isi-footer">
+										<img src="../../footer/twitter-icon.png" class="icon-footer">
+										<p class=label-foot>Twitter</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="isi-footer">
+										<img src="../../footer/whatsapp-icon.png" class="icon-footer">
+										<p class=label-foot>Whatsapp</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="isi-footer">
+										<img src="../../footer/facebook-icon.png" class="icon-footer">
+										<p class=label-foot>Facebook</p>
+									</div>
+								</a>
+							</li>
+					</ul>
+					<ul class="kategori">
+						<li>
+							<p class="deskripsi-footer">
+								Language
+							</p>
+						</li>
+						<li>
+							<div class="isi-footer">
+								<img src="../../footer/language-icon.svg" class="icon-footer">
+								<p class=label-foot>Indonesia</p>
+							</div>
+						</li>
+						<li>
+							<div class="isi-footer">
+								<img src="../../footer/language-icon.svg" class="icon-footer">
+								<p class=label-foot>English</p>
+							</div>
+						</li>
+						<li>
+							<div class="isi-footer">
+								<img src="../../footer/language-icon.svg" class="icon-footer">
+								<p class=label-foot>Germany</p>
+							</div>
+						</li>
+						<li>
+							<div class="isi-footer">
+								<img src="../../footer/language-icon.svg" class="icon-footer">
+								<p class=label-foot>Japan</p>
+							</div>
+						</li>
+						<li>
+							<div class="isi-footer">
+								<img src="../../footer/language-icon.svg" class="icon-footer">
+								<p class=label-foot>Arabic</p>
+							</div>
+						</li>
+					</ul>
+					<ul class="kategori">
+						<li>
+							<p class="deskripsi-footer">
+								Source
+							</p>
+						</li>
+						<li>
+							<a href="https://wikipedia.org">
+								<div class="isi-footer">
+									<img src="../../Footer/website-icon.svg" class="icon-footer">
+									<p class=label-foot>Wikipedia</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="https://britannica.com">
+								<div class="isi-footer">
+									<img src="../../Footer/website-icon.svg" class="icon-footer">
+									<p class=label-foot>Encyclopedia Britannica</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="https://theguardian.com">
+								<div class="isi-footer">
+									<img src="../../Footer/website-icon.svg" class="icon-footer">
+									<p class=label-foot>The Guardian</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="https://aljazeera.com">
+								<div class="isi-footer">
+									<img src="../../Footer/website-icon.svg" class="icon-footer">
+									<p class=label-foot>Al Jazeera</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="https://kompas.com">
+								<div class="isi-footer">
+									<img src="../../Footer/website-icon.svg" class="icon-footer">
+									<p class=label-foot>Kompas TV</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+					<ul class="kategori">
+						<li>
+							<p class="deskripsi-footer">
+								Reference
+							</p>
+						</li>
+						<li>
+							<a href="https://youtube.com/@sandhikagalihWPU?si=Sj9fw1Jk9aTyu8Xn">
+								<div class="isi-footer">
+									<img src="../../Footer/Youtube-icon.png" class="icon-footer">
+									<p class=label-foot>Web Programming UNPAS</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="https://youtube.com/@SuperSimpleDev?si=O2XYcYzTyAipi2eT">
+								<div class="isi-footer">
+									<img src="../../Footer/Youtube-icon.png" class="icon-footer">
+									<p class=label-foot>SuperSimpleDev</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="https://youtube.com/@deaafrizal?si=2c7Iahxy_oG0Gd4s">
+								<div class="isi-footer">
+									<img src="../../Footer/Youtube-icon.png" class="icon-footer">
+									<p class=label-foot>Dea Afrizal</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.figma.com">
+								<div class="isi-footer">
+									<img src="../../Footer/website-icon.svg" class="icon-footer">
+									<p class=label-foot>Figma</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="https://Wikipedia.org">
+								<div class="isi-footer">
+									<img src="../../Footer/website-icon.svg" class="icon-footer">
+									<p class=label-foot>Wikipedia</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<p class="copyright">
+					&copy; 2023 Farispedia
+				</p>
+
+			</footer>
+		</div>
+		<script>
+			const EyeOpen = document.querySelector(".password-icon-close");
+			const EyeClose = document.querySelector(".password-icon-open");
+
+			EyeClose.addEventListener("click", function () {
+				EyeOpen.classList.remove("vanish");
+				EyeOpen.classList.add("appear");
+				EyeClose.classList.remove("appear");
+				EyeClose.classList.add("vanish");
+			});
+
+			EyeOpen.addEventListener("click", function () {
+				EyeClose.classList.remove("vanish");
+				EyeClose.classList.add("appear");
+				EyeOpen.classList.remove("appear");
+				EyeOpen.classList.add("vanish");
+			});
+
+		</script>
+</body>
+
+</html>
